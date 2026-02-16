@@ -10,5 +10,5 @@
 
 ' Code:
 Set WshShell = CreateObject("WScript.Shell") ' Create a WScript.Shell object to interact with the Windows shell.
-WshShell.Run "cmd /c ""RegularWorkspace""", 0, False ' Execute the "RegularWorkspace" batch file in a hidden command prompt.
+WshShell.Run "cmd /c ""RegularWorkspace""", 1, False ' Execute the "RegularWorkspace" batch file in a hidden command prompt.
 Set WshShell = Nothing ' Release the WScript.Shell object to free resources.
