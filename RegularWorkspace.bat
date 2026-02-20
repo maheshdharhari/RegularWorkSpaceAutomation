@@ -95,4 +95,4 @@ echo.
 echo =================================
 echo     All applications launched!
 echo =================================
-pause
+exit
